@@ -1,0 +1,126 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* TOP SECTION */
+.top-banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.top-banner-container{
+    margin:auto;
+    padding-top: 10%;
+    width: 50%;
+    text-align: center; 
+    color: rgb(255, 255, 255);
+}
+.top-banner-container h1 {
+    margin: 0;
+    font-size: 80px;
+    font-weight: 900;
+    
+}
+.donate-button{
+    border-style: none;
+    font-weight: 900;
+    font-size: 20px;
+    margin: 20px 10px;
+    padding: 10px 50px;
+    color: white;
+    background-color: coral;
+    border-radius: 5px;
+   
+    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.219) ;
+}
+/* MID TOP SECTION */
+.mid-top{
+text-align: center;
+
+}
+.mid-top-text{
+    
+    text-align: center;
+}
+.mid-top-text h1{
+    margin-top: 2%;
+    margin-bottom: 1%;
+    font-size: 50px;
+}
+.mid-top-text p{
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+}
+.mid-top-container{
+    display: flex;
+}
+.mid-top-container{
+    margin-left: 35%;
+}
+.mid-top-five{
+    color: gray;
+    margin-left:1%;
+    padding: 10px 20px;
+    border-style: none;
+    background-color: rgba(182, 181, 181, 0.096);
+    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.075);
+    border-radius: 5px;
+}
+#h1-tk-color{
+    border: 2px solid rgb(241, 75, 75);
+    background-color: rgba(247, 98, 98, 0.205);
+}
+.tk-input{
+    text-decoration: antiquewhite;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    width: 40%;
+    height: 40px;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow:  0px 2px rgba(161, 160, 160, 0.678);
+}
+/* MID LOW SECTION */
+.mid-low{
+    text-align: center;
+}
+.mid-low-text h1{
+    font-size: 50px;
+    margin-top: 4%;
+    margin-bottom: 1%;
+}
+.mid-low-container{
+    display: flex;
+    margin-left: 10%;
+}
+.mid-low-three{
+    width: 25%;
+    text-align: left;
+    border-radius: 5px;
+    margin-left: 2%;
+    padding: 1%;
+    height: 400px;
+    
+}
+.mid-low-img{
+    width: 15%; 
+}
+.mid-low-three p{
+    width: 100%;
+}
+#package-one{
+    background-color: rgba(179, 226, 247, 0.233);
+}
+#package-two{
+    background-color: rgba(255, 192, 203, 0.212);
+}
+#package-three{
+    background-color: rgba(255, 255, 0, 0.226);
+}
