@@ -124,3 +124,23 @@ text-align: center;
 #package-three{
     background-color: rgba(255, 255, 0, 0.226);
 }
+/* THIS IS BLOG SECTION */
+.blog{
+    
+}
+.blog-container{
+    display: flex;
+}
+.half-width{
+    text-align: left;
+    width: 100%;
+    margin-left: 3%;
+    margin-top: 10%;
+}
+.half-width img{
+    border-radius: 10px;
+    width: 80%;
+}
+.second-blog-container{
+    display: flex;
+}
