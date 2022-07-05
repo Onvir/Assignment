@@ -1,5 +1,6 @@
 body{
     font-family: 'Lato', sans-serif;
+    font-family: 'Lobster', cursive;
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
@@ -61,12 +62,12 @@ text-align: center;
     display: flex;
 }
 .mid-top-container{
-    margin-left: 35%;
+    margin-left: 30%;
 }
 .mid-top-five{
     color: gray;
-    margin-left:1%;
-    padding: 10px 20px;
+    margin-left:10px;
+    padding: 25px 35px;
     border-style: none;
     background-color: rgba(182, 181, 181, 0.096);
     box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.075);
@@ -77,6 +78,7 @@ text-align: center;
     background-color: rgba(247, 98, 98, 0.205);
 }
 .tk-input{
+    margin-top: 1%;
     text-decoration: antiquewhite;
     text-align: center;
     font-size: 25px;
@@ -125,22 +127,89 @@ text-align: center;
     background-color: rgba(255, 255, 0, 0.226);
 }
 /* THIS IS BLOG SECTION */
-.blog{
-    
-}
 .blog-container{
     display: flex;
 }
 .half-width{
     text-align: left;
     width: 100%;
-    margin-left: 3%;
-    margin-top: 10%;
+    margin-left: 7%;
+    margin-top: 5%;
 }
 .half-width img{
     border-radius: 10px;
     width: 80%;
 }
+.half-width p{
+    width: 70%;
+}
 .second-blog-container{
     display: flex;
+}
+/* THIS THIS LOW SECTION */
+.low-container{
+    margin-top: 5%;
+    text-align: center;
+}
+.low-text h1{
+    font-size: 50px;
+    margin-bottom: 1%;
+}
+/* THIS IS FORM SECTION */
+.form{
+    float: left;
+    display: flex;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    background-color: rgb(248, 248, 237);
+    height: 200px;
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+.input-email{
+          width: 35%;
+          padding: 15px 20px;
+          text-align: left;
+          font-size: 20px;
+          outline: 0;
+          margin-left: 20%;
+          border: 0;
+          background-color: antiquewhite;
+          height: 30px;
+          margin-top: 8%;
+          border-radius:5px 0 0 5px ;
+
+}
+
+#subscribe{
+    border: 0;
+    outline: 0;
+    width: 20%;
+    padding: 15px 20px;
+    text-align: center;
+    background-color: coral;
+    height: 60px;
+    margin-top: 8%;
+    font-size: 20px;
+    color: white;
+    border-radius:0 5px 5px 0 ;
+}
+footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    margin-top: 3%;
+}
+.footer-text{
+    color: rgb(255, 255, 255);
+    padding: 2%;
+    
+}
+.footer-text h1{
+    color: rgb(238, 136, 136);
+    font-family: 'Lobster', cursive;
 }
